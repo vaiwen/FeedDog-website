@@ -1,3 +1,6 @@
+# Information
+I made a simple website using React(Hooks,Context). I tried change to theme using Context.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
