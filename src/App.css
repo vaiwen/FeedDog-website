@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  /* background-color: rgba(93, 238, 90, .29); */
+  background-color: #D0FACF;
+  padding: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+font-size: 6rem;
+}
+
+.header-section {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.change-theme {
+  width: 50px;
+  padding: 1.2rem;
+  height: 49px;
+  background-color: #7DF17B;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+
+.change-theme:hover {
+  background-color: black;
+  fill: white;
+  cursor: pointer;
+}
+
+.header-section a {
+  width: 140px;
+  font-size: 2rem;
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgba(93, 238, 90, .72);
+  color: black;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.header-section a:hover {
+  border-bottom-width: 7px;
+}
+
+.ghost {
+  width: 100%;
+  height: 10vh;
+}
+
+/* main content */
+
+.main-content {
+  width: 100%;
+  height: 65vh;
+  position: relative;
+
+  padding: 5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content-text {
+  width: 50%;
+  font-size: 9rem;
+  background: -webkit-linear-gradient(40deg, rgba(0, 255, 102, 1) 0%, rgba(0, 115, 251, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main-content-images {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-content-images .dogs {
+  width: 125px;
+  height: 125px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.dogs {
+  background-position: center;
+  background-size: cover;
+}
+
+#dog1 {
+  border: none;
+}
+
+#dog2 {
+  background-image: url(images/dogs/dog1.jpg);
+}
+
+#dog3 {
+  background-image: url(images/dogs/dog2.jpg);
+}
+
+#dog4 {
+  background-image: url(images/dogs/dog3.jpg);
+}
+
+#dog5 {
+  background-image: url(images/dogs/dog4.jpg);
+}
+
+#dog6 {
+  background-image: url(images/dogs/dog5.jpg);
+}
+
+#dog7 {
+  background-image: url(images/dogs/dog6.jpg);
+}
+
+#dog8 {
+  background-image: url(images/dogs/dog7.jpg);
+}
+
+#dog9 {
+  background-image: url(images/dogs/dog8.jpg);
+}
+
+/* slider */
+
+.slider {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #F3F6F9;
+}
+
+.slider-item {
+  width: 100%;
+  height: 45%;
+  padding: 0 10rem;
+  position: relative;
+}
+
+#companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-image {
+  width: 7%;
+  height: 40%;
+  background-position: center;
+  background-size: cover;
+}
+
+#img1 {
+  background-image: url(images/companies/c1.svg);
+}
+
+#img2 {
+  background-image: url(images/companies/c2.svg);
+}
+
+#img3 {
+  background-image: url(images/companies/c3.svg);
+}
+
+#img4 {
+  background-image: url(images/companies/c4.svg);
+}
+
+#img5 {
+  background-image: url(images/companies/c5.svg);
+}
+
+#img6 {
+  background-image: url(images/companies/c6.svg);
+}
+
+.slider-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-text p {
+  font-size: 1.3rem;
+  font-family: ibm-plex-sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+
+.contents {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  
+}
+
+.content-image {
+  width: 40%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.c1 {
+  background-image: url(./images/dogs/dog9.jpg);
+}
+
+.content-text {
+ width: 45%;
+ height: 75%;
+ font-size: 5rem;
+ line-height: 7rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.c2 {
+  background-image: url(./images/dogs/dog10.jpg);
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #F3F6F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+
+
+
+/* ---------- DARK MODE ---------- */
+
+
+/* dark header */
+
+.dark-header {
+  background-color: #7DF17B;
+}
+
+.dark-header-section a {
+  background-color: #2d6a4f;
+  color: white;
+  border-color: white;
+}
+
+.dark-header-section a:hover {
+  border-bottom-width: 7px;
+}
+
+.dark-change-theme {
+  background-color: #000;
+  fill: white;
+  border-color: white;
+}
+
+.dark-change-theme:hover {
+  background-color: white;
+  fill: black;
+  border-color: black;
+}
+
+/* dark-main-content */
+
+.dark-main-content {
+  background-color: black;
+}
+
+.dark-main-content-images .dogs {
+  border-color: white;
+}
+
+/* dard-slider */
+
+.dark-slider {
+  background-color: #adb5bd;
+}
+
+/* dark-contents */
+
+.dark-contents {
+  background-color: #000;
+  color: #fff;
+}
+
+/* dark-footer */
+
+.dark-footer {
+  background-color: #adb5bd;
+}
